@@ -45,7 +45,7 @@ class _AddItemFormState extends State<AddItemForm> {
                 Text(
                   'Emergency Contact Numbers-',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.red,
                     fontSize: 22.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class _AddItemFormState extends State<AddItemForm> {
                 Text(
                   'Wildlife Conservation-011 2888585',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.black87,
                     fontSize: 17.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -65,7 +65,7 @@ class _AddItemFormState extends State<AddItemForm> {
                   Text(
                   'Emergency Services -199',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.black87,
                     fontSize: 17.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -75,7 +75,7 @@ class _AddItemFormState extends State<AddItemForm> {
                 Text(
                   'Title',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.blue,
                     fontSize: 22.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -98,7 +98,7 @@ class _AddItemFormState extends State<AddItemForm> {
                 Text(
                   'Message',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.blue,
                     fontSize: 22.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -126,7 +126,7 @@ class _AddItemFormState extends State<AddItemForm> {
                   padding: const EdgeInsets.all(16.0),
                   child: CircularProgressIndicator(
                     valueColor: AlwaysStoppedAnimation<Color>(
-                      CustomColors.firebaseOrange,
+                      Colors.blue,
                     ),
                   ),
                 )
@@ -135,7 +135,7 @@ class _AddItemFormState extends State<AddItemForm> {
                   child: ElevatedButton(
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all(
-                        CustomColors.firebaseYellow,
+                        Colors.blue,
                       ),
                       shape: MaterialStateProperty.all(
                         RoundedRectangleBorder(

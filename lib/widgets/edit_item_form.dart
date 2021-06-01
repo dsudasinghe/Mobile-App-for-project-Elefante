@@ -62,9 +62,9 @@ class _EditItemFormState extends State<EditItemForm> {
               children: [
                 SizedBox(height: 24.0),
                 Text(
-                  'Title',
+                  'Camara location',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.blue,
                     fontSize: 22.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -80,14 +80,14 @@ class _EditItemFormState extends State<EditItemForm> {
                   validator: (value) => Validator.validateField(
                     value: value,
                   ),
-                  label: 'Title',
-                  hint: 'Enter your note title',
+                  label: 'Camara Location Details',
+                  hint: 'Edit Camara Location Details',
                 ),
                 SizedBox(height: 24.0),
                 Text(
-                  'Description',
+                  'Details',
                   style: TextStyle(
-                    color: CustomColors.firebaseGrey,
+                    color: Colors.blue,
                     fontSize: 22.0,
                     letterSpacing: 1,
                     fontWeight: FontWeight.bold,
@@ -104,8 +104,8 @@ class _EditItemFormState extends State<EditItemForm> {
                   validator: (value) => Validator.validateField(
                     value: value,
                   ),
-                  label: 'Description',
-                  hint: 'Enter your note description',
+                  label: 'Details',
+                  hint: 'Add note',
                 ),
               ],
             ),
@@ -115,7 +115,7 @@ class _EditItemFormState extends State<EditItemForm> {
                   padding: const EdgeInsets.all(16.0),
                   child: CircularProgressIndicator(
                     valueColor: AlwaysStoppedAnimation<Color>(
-                      CustomColors.firebaseOrange,
+                      Colors.blue,
                     ),
                   ),
                 )
@@ -124,7 +124,7 @@ class _EditItemFormState extends State<EditItemForm> {
                   child: ElevatedButton(
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all(
-                        CustomColors.firebaseOrange,
+                        Colors.blue,
                       ),
                       shape: MaterialStateProperty.all(
                         RoundedRectangleBorder(
@@ -157,7 +157,7 @@ class _EditItemFormState extends State<EditItemForm> {
                     child: Padding(
                       padding: EdgeInsets.only(top: 16.0, bottom: 16.0),
                       child: Text(
-                        'UPDATE ITEM',
+                        'OK',
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,

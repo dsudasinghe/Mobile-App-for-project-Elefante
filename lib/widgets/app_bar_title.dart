@@ -14,17 +14,17 @@ class AppBarTitle extends StatelessWidget {
         ),
         SizedBox(width: 8),
         Text(
-          'elephant',
+          'Elephant ',
           style: TextStyle(
-            color: CustomColors.firebaseYellow,
-            fontSize: 18,
+            color: Colors.white,
+            fontSize: 20,
           ),
         ),
         Text(
           'Detections',
           style: TextStyle(
-            color: CustomColors.firebaseOrange,
-            fontSize: 18,
+            color: Colors.white,
+            fontSize: 20,
           ),
         ),
       ],

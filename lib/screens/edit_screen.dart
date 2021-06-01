@@ -34,10 +34,10 @@ class _EditScreenState extends State<EditScreen> {
         _descriptionFocusNode.unfocus();
       },
       child: Scaffold(
-        backgroundColor: CustomColors.firebaseNavy,
+        backgroundColor: Colors.white,
         appBar: AppBar(
           elevation: 0,
-          backgroundColor: CustomColors.firebaseNavy,
+          backgroundColor: Colors.blue,
           title: AppBarTitle(),
           actions: [
             _isDeleting

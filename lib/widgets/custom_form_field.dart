@@ -47,7 +47,7 @@ class CustomFormField extends StatelessWidget {
       textCapitalization:
           isCapitalized ? TextCapitalization.words : TextCapitalization.none,
       textInputAction: _inputAction,
-      cursorColor: CustomColors.firebaseYellow,
+      cursorColor: Colors.blue,
       style: TextStyle(color: Colors.black87),
       validator: (value) => _validator(value!),
       decoration: InputDecoration(

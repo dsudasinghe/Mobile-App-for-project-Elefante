@@ -24,7 +24,7 @@ class ItemList extends StatelessWidget {
 
               return Ink(
                 decoration: BoxDecoration(
-                  color: CustomColors.firebaseGrey.withOpacity(0.1),
+                  color: Colors.blue.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: ListTile(
@@ -43,11 +43,17 @@ class ItemList extends StatelessWidget {
                   title: Text(
                     title,
                     maxLines: 1,
+                    style: TextStyle(
+                      color: Colors.black87,
+                    ),
                     overflow: TextOverflow.ellipsis,
                   ),
                   subtitle: Text(
                     description,
                     maxLines: 1,
+                    style: TextStyle(
+                      color: Colors.black87,
+                    ),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
@@ -59,7 +65,7 @@ class ItemList extends StatelessWidget {
         return Center(
           child: CircularProgressIndicator(
             valueColor: AlwaysStoppedAnimation<Color>(
-              CustomColors.firebaseOrange,
+              Colors.blue,
             ),
           ),
         );

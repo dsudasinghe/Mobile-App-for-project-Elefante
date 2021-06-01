@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return GestureDetector(
       onTap: () => _uidFocusNode.unfocus(),
       child: Scaffold(
-        backgroundColor: Colors.white70,
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: Padding(
             padding: const EdgeInsets.only(
@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Flexible(
                         flex: 1,
                         child: Image.asset(
-                          'elephant-egg.png',
+                          'assets/elephant.png',
                           height: 160,
                         ),
                       ),
